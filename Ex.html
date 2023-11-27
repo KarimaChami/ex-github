@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        li a:hover {
+  background-color: rgb(27, 133, 147);
+  color: #000;
+  transform-style: calc();
+}
+body{
+    margin: 25px;
+    padding: 30px;
+
+}
+    </style>
+</head>
+<body>
+   <p class="text-muted fw-bold">INSTITUT SPECIASLISE DE TECHNOLOGIE APPLIQUEE AIT MELLOUL</p> 
+   <nav style="border-bottom: 5px solid rgb(27, 133, 147);">
+       <ul class="d-flex flex-wrap d-block list-unstyled justify-content-start ms-5 m-0">
+        <li><a class="nav-link text-dark border border-2" href="#">Evaluation</a></li>
+        <li><a class="nav-link text-dark border border-2"  href="#">Avancement</a></li>
+        <li><a class="nav-link text-dark border border-2"  href="#">Changer EFP</a></li>
+        <li><a class="nav-link text-dark border border-2"  href="#">Mon compte</a></li>
+        <li><a class="nav-link text-dark border border-2"  href="#">Deconnexion</a></li>
+       </ul>
+   </nav>
+   <p class="text-muted fw-bold mt-3 p-2" style="border-bottom: 1px solid">CAHIER E TEXTE/RETOUR</p>
+   
+    <div class="d-flex justify-content-center">
+       <div class="input-group m-3 p-3 ">
+        <p class="m-2 fw-bold">filiere:</p>
+        <select class="form-select ">
+        <option value="1">filiere1</option>
+        <option value="2">filiere2</option>
+        <option value="3">filiere3</option>
+        </select>
+       </div> 
+       <div class="input-group m-3 p-3 ">
+        <p class="m-2 fw-bold">Module:</p>
+        <select class="form-select ">
+            <option value="1">Module1</option>
+            <option value="2">Module2</option>
+            <option value="3">Module3</option>
+            </select>
+        </div>
+    </div>
+    <p class="text-muted fw-bold mt-3 p-2" style="border-bottom: 1px solid">NOUVELLE SEANCE</p>
+<div class="d-flex justify-content-center">
+   <div class="input-group">
+    <p class="m-2 fw-bold">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Quasi:</p>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+  </div>
+  <div class="input-group m-3 p-3 ">
+    <p class="m-2 fw-bold">Type de cours:</p>
+    <select class="form-select ">
+        <option value="1">type1</option>
+        <option value="2">type2</option>
+        <option value="3">type3</option>
+        </select>
+    </div>
+</div>
+  <p style="border-bottom: 1px solid;margin-top: 20px;"></p>
+  <div class="d-flex justify-content-evenly">
+    <div class="me-auto p-3">
+        <div>
+            <form action="">
+                <label for="dt">Date de la seance:</label>
+                <input type="date">
+              </form>
+           </div> 
+           <div class="ms-auto p-3">
+            <form action="">
+                <label for="heure">Heure demerage:</label>
+                <input type="time">
+              </form>
+            </div>
+
+    </div>
+    <div class="me-auto p-3">
+        <div class="input-group">
+            <p class="m-2 fw-bold">EFF.Absents:</p>
+            <select class="form-select ">
+                <option value="1">type1</option>
+                <option value="2">type2</option>
+                <option value="3">type3</option>
+                </select>
+            </div>
+        <div class="ms-auto p-3">
+                <form action="">
+                <label for="heure">Heure fin:</label>
+                <input type="time">
+                </form>
+        </div>
+    </div>
+  </div>
+  <p style="border-bottom: 1px solid;margin-top: 20px;"></p>
+  <div class="d-flex justify-content-evenly">
+    <div class="d-flex">
+     <p class="m-2 fw-bold">Commantaires:</p>
+     <textarea class="form-control" aria-label="With textarea"></textarea>
+   </div>
+   <div class="d-flex">
+    <p class="m-2 fw-bold">Liste absants:</p>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+  </div>
+</div>
+<div class="d-flex justify-content-start">
+  <p>type de seance</p>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" checked>
+    <label class="form-check-label" for="">Cours</label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" checked>
+    <label class="form-check-label" for="">CC</label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" checked>
+    <label class="form-check-label" for="">EFM</label>
+  </div>
+</div>
+
+<button type="button" class="btn btn-outline-success">Valider la seance</button>
+</body>
+</html>
